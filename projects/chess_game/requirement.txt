@@ -1,0 +1,5 @@
+chess library
+to install-> pip3 install python-chess
+
+1. import the library
+2. create the Object

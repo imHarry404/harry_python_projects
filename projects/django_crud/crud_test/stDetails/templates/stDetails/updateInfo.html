@@ -1,0 +1,16 @@
+{% extends 'stDetails/base.html' %}
+{% block content %}
+
+    <div class="row">
+    <div class="col-sm-8 offset-2">
+        <h2 class="alert alert-info">Update The details </h2>
+        <form action="" method="POST">
+        {% csrf_token %}
+            {{form.as_p}}
+            <input type="Submit" value="Submit" class='btn btn-success'>
+            <a href="{% url 'addInfo' %}" class="btn btn-info">Back to home</a>
+        </form>
+    </div>
+    </div>
+
+{% endblock content %}
