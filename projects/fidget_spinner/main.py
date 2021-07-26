@@ -11,7 +11,7 @@ def spinner():
     back(100)
     right(120) #for anticlock direction we have to move to left angle
     forward(100)
-    dot(120,'blue')
+    dot(120,'blue') #dot is circle here
     back(100)
     right(120)
     forward(100)
@@ -32,7 +32,7 @@ def animate():
 
 # this will control the speed of the fidget
 def flick():
-    state['turn']+=100 #speed of the circle on pressing space button
+    state['turn']+=10 #speed of the circle on pressing space button
     # this will control the speed of the fidget
     # it is very slow
 tracer(False)
@@ -43,3 +43,6 @@ animate()
 done()
 # lets run it
 # now press the space key 
+# keep pressing space key, its speed will increase on pressing
+
+# for 10 the speed will be slow
