@@ -1,9 +1,10 @@
 import tweepy
 from time import sleep
 
-auth=tweepy.OAuthHandler('pURfxcPsgnmy5JKFiZrLL73sA','ORNkx1hRZqwZypQxnTqOvXtuBBAbautf1wJF5ZO5kyF8ySa62w')
 
-auth.set_access_token('1029273003442483201-YIBWSZ4zg19UHtFw7N1QIv7MNwBo7U','fDbOszxyEbuowdND368LFdzd8aNlVEuPN5WVZTIB1CFCu')
+auth=tweepy.OAuthHandler('your-api-key','your-api-secret-key')
+
+auth.set_access_token('access-token-key','access-token-secret')
 
 
 # authorizing the api's
