@@ -8,8 +8,9 @@ qr=qrcode.QRCode(
     box_size=10, #10 means the box where qr code will be displayed
     border=5 #it is the white part of image -> border in all 4 sides with white border      
 )
-# data='hii how are you'
-data='hiii this is harry'  #here we can give any link or anything , any text message,any link 
+# data='https://www.linkedin.com/in/imharry404/'
+# data='hiii this is harry' 
+#here we can give any link or anything , any text message,any link 
 
 
 # passing data to the object
